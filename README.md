@@ -1,5 +1,5 @@
 ## Node version
-12.14.1
+v12.18.3
 
 ## Usage
 `$ yarn install`
