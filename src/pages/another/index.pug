@@ -1,0 +1,22 @@
+extends ../../pug_templates/layouts/layout
+
+include ../../pug_templates/components/button
+
+block variables
+  -
+    var appId = 'test';
+    var title = 'テスト';
+    var description = '説明';
+
+block page_css
+  link(rel='stylesheet', href= PUBLIC_URL + '/css/another.css')
+
+block content
+  .test
+    .test__title ...
+    .test__image.another
+    p This is hoge page!
+    +button
+
+block page_js
+  script(src= PUBLIC_URL + '/js/another.js')

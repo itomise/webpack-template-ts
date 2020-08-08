@@ -1,0 +1,17 @@
+extends ../pug_templates/layouts/layout
+
+block variables
+  -
+    var title = 'トップ';
+    var description = '説明';
+
+block page_css
+  link(rel='stylesheet', href= PUBLIC_URL + '/css/home.css')
+
+block content
+  .test
+    .test__title ...
+    .test__image
+
+block page_js
+  script(src= PUBLIC_URL + '/js/home.js')
