@@ -1,5 +1,6 @@
 {
-  "name": "static-site-webpack",
+  "name": "static-site-webpack-typescript",
+  "author": "Ryota Ito (https://github.com/itomise)",
   "scripts": {
     "dev": "node server.js",
     "build": "rimraf ./htdocs && webpack --config webpack.prod.js",
@@ -55,6 +56,9 @@
     "webpack-glob-entries": "^1.0.1",
     "webpack-hot-middleware": "^2.24.3",
     "webpack-merge": "^4.2.1"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "private": true,
   "browserslist": [
