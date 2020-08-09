@@ -12,9 +12,9 @@ $maxPcWidth: 100%;
 $maxTabletWidth: 1280px;
 
 $breakpoints: (
-  'sm': 'screen and (max-width: #{$breakPoint-sp})',
-  'md': 'screen and (min-width: #{$breakPoint-pc}) and (max-width: #{$maxTabletWidth})',
-  'lg': 'screen and (min-width: #{$breakPoint-pc})',
+  'sp': 'screen and (max-width: #{$breakPoint-sp})',
+  'tab': 'screen and (min-width: #{$breakPoint-pc}) and (max-width: #{$maxTabletWidth})',
+  'pc': 'screen and (min-width: #{$breakPoint-pc})',
 ) !default;
 
 $baseFont: "Helvetica Neue", "Segoe UI", Helvetica, "游ゴシック体", YuGothic, "Yu Gothic M", "游ゴシック Medium", "Yu Gothic Medium", "メイリオ", Meiryo, sans-serif !default;
